@@ -14,7 +14,6 @@
         "Laravel", "Backpack", "Backpack for Laravel", "Backpack Addon", "BackpackPagebuilder"
     ],
     "require": {
-        "backpack/crud": "^5.4",
         "hansschouten/laravel-pagebuilder": "^0.20.0"
     },
     "require-dev": {
