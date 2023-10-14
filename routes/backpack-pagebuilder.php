@@ -36,3 +36,7 @@
 // ], function () {
 //     Route::crud('some-entity-name', \Lucasheer\BackpackPagebuilder\Http\Controllers\Admin\EntityNameCrudController::class);
 // });
+
+Route::get('/test', function () {
+    return 'test';
+});
