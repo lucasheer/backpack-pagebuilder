@@ -13,9 +13,6 @@
     "keywords": [
         "Laravel", "Backpack", "Backpack for Laravel", "Backpack Addon", "BackpackPagebuilder"
     ],
-    "require": {
-        "hansschouten/laravel-pagebuilder": "^0.20.0"
-    },
     "require-dev": {
         "phpunit/phpunit": "~9.0",
         "orchestra/testbench": "~5|~6"
