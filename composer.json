@@ -1,0 +1,44 @@
+{
+    "name": "lucasheer/backpack-pagebuilder",
+    "description": "Page builder for Laravel Backpack",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Heer",
+            "email": "Lucasheer@gmail.com",
+            "homepage": "http://anywheremediacompany.com"
+        }
+    ],
+    "homepage": "https://github.com/lucasheer/backpack-pagebuilder",
+    "keywords": [
+        "Laravel", "Backpack", "Backpack for Laravel", "Backpack Addon", "BackpackPagebuilder"
+    ],
+    "require": {
+        "illuminate/support": "~8|~9",
+        "backpack/crud": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~5|~6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lucasheer\\BackpackPagebuilder\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lucasheer\\BackpackPagebuilder\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --testdox"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lucasheer\\BackpackPagebuilder\\AddonServiceProvider"
+            ]
+        }
+    }
+}
